@@ -145,19 +145,19 @@ img {
   */
  #menu
  {
-   position: absolute;
-   width: 100px;
-   margin: -100px 0 0 -50px;
-   padding: 50px;
-   padding-top: 125px;
-   
+   position: fixed;
+   width: 80px;
+   margin: 50px 0 0 10px;
+   padding: 25px;
+   border-radius: 30px;
+
    background: #ededed;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
    
    transform-origin: 0% 0%;
-   transform: translate(-100%, 0);
+   transform: translate(-120%, 0%);
    
    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
  }
@@ -175,3 +175,10 @@ img {
  {
    transform: none;
  }
+
+footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  border: #232323 solid 1px;
+}
