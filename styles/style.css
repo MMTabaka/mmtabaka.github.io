@@ -4,8 +4,19 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+  position: fixed;
+  background-color: white;
+}
+
+
+
 img {
   max-width: 100%;
+}
+
+#profile {
+  margin-top: 100px;
 }
 
 #logo {
@@ -16,12 +27,12 @@ img {
 .header-block {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center
 }
 
 #right {
-  width: 32px;
-  height: 104px;
+  width: 42px;
+  height: 70px;
 }
 
 /*
@@ -38,9 +49,8 @@ img {
  
  #menuToggle
  {
-   top: 10px;
-   left: 10px;
-   
+   padding-left: 10px;
+   padding-top: 7px;
    z-index: 1;
    
    -webkit-user-select: none;
@@ -65,10 +75,10 @@ img {
  {
    display: block;
    width: 37px;
-   height: 104px;
+   height: 70px;
    position: absolute;
-   top: 0px;
-   left: 0px;
+   top: 3px;
+   left: 8px;
    cursor: pointer;
    
    opacity: 0; /* hide this */
@@ -153,7 +163,7 @@ img {
  {
    position: fixed;
    width: 80px;
-   margin: 50px 0 0 10px;
+   margin: 50px 0 0 -5px;
    padding: 25px;
    border-radius: 30px;
 
@@ -163,9 +173,9 @@ img {
    /* to stop flickering of text in safari */
    
    transform-origin: 0% 0%;
-   transform: translate(-120%, 0%);
+   transform: translate(-130%, 0%);
    
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+   transition: transform 0.6s cubic-bezier(0.77,0.2,0.05,1.0);
  }
  
  #menu li
