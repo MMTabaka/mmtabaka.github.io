@@ -1,0 +1,5 @@
+@media (min-width: 700px) {
+  html {
+    background-color: red;
+  }
+}
