@@ -6,7 +6,9 @@ body {
 
 header {
   position: fixed;
+  width: 100%;
   background-color: white;
+
 }
 
 
@@ -27,7 +29,9 @@ img {
 .header-block {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #right {
@@ -67,7 +71,7 @@ img {
  
  #menuToggle a:hover
  {
-   color: tomato;
+   color: red;
  }
  
  
@@ -135,7 +139,7 @@ img {
  {
    opacity: 1;
    transform: rotate(45deg) translate(-2px, -1px);
-   background: #232323;
+   background: red;
  }
  
  /*
@@ -202,6 +206,18 @@ img {
  #menuToggle input:checked ~ ul
  {
    transform: none;
+ }
+
+ #projects {
+   display: flex;
+   flex-direction: column;
+ }
+
+ #projects div {
+   width: auto;
+   height: 100px;
+   margin: 10px;
+   border: 1px solid black;
  }
 
 footer {
