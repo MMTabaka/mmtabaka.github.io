@@ -1,35 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 html {
-  padding: 2%;
+  padding: 5px;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1 {
+  margin: 5px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+p {
+  padding: 5px
+}
+
 header {
   position: -webkit-sticky;
   position: sticky;
-  top: 1%;
+  top: 10px;
   width: 100%;
   background-color: white;
-
 }
-
-
 
 img {
   max-width: 100%;
+  border-radius: 20px;
+  
 }
 
 #profile {
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #logo {
@@ -43,10 +49,11 @@ img {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 50px;
 }
 
 #right {
-  width: 42px;
+  width: 52px;
   height: 70px;
 }
 
@@ -64,8 +71,7 @@ img {
  
  #menuToggle
  {
-   padding-left: 0px; /*10*/
-   padding-top: 0px; /*7*/
+   padding: 10px;
    z-index: 1;
    
    -webkit-user-select: none;
@@ -89,11 +95,11 @@ img {
  #menuToggle input
  {
    display: block;
-   width: 37px;
-   height: 70px;
+   width: 45px;
+   height: 45px;
    position: absolute;
-   top: 0px; /*3*/
-   left: 0px; /*8*/
+   top: 5px; /*3*/
+   left:0px; /*8*/
    cursor: pointer;
    
    opacity: 0; /* hide this */
@@ -204,7 +210,6 @@ img {
    display: flex;
    justify-content: space-around;
    padding: 30px;
-   padding-bottom: 50px;
  }
 
  .icons-container img {
@@ -222,6 +227,7 @@ img {
  #projects {
    display: flex;
    flex-direction: column;
+  
  }
 
  #projects div {
@@ -229,11 +235,12 @@ img {
    height: 100px;
    margin: 10px;
    border: 1px solid black;
+   border-radius: 10px;
  }
 
 footer {
   padding: 15px;
   display: flex;
   justify-content: space-around;
-  border: #232323 solid 1px;
+  border-top: red solid 1px;
 }
