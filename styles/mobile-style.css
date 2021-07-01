@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
   padding: 5px;
@@ -6,21 +6,22 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   margin: 5px;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 5px;
   font-size: 25px;
   font-weight: 600;
-  scroll-margin-top: 70px;
+  scroll-margin-top: 75px;
 }
 
 p {
   margin: 5px;
-  padding: 10px
+  padding: 10px;
+  font-size: 15px;
 }
 
 header {
@@ -227,6 +228,10 @@ img {
    transform: none;
  }
 
+ .introduction p {
+   text-align: center;
+ }
+
  #projects {
    display: flex;
    flex-direction: column;
@@ -245,5 +250,5 @@ footer {
   padding: 15px;
   display: flex;
   justify-content: space-around;
-  border-top: red solid 1px;
+  border-top: black solid 1px;
 }
