@@ -246,6 +246,10 @@ img {
    border-radius: 10px;
  }
 
+ #projects .uni-project {
+   border-left: 3px solid cyan;
+ }
+
 footer {
   padding: 15px;
   display: flex;
