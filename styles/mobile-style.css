@@ -2,6 +2,7 @@
 
 html {
   padding: 5px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,6 +15,7 @@ h1 {
   padding: 5px;
   font-size: 25px;
   font-weight: 600;
+  scroll-margin-top: 70px;
 }
 
 p {
