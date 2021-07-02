@@ -1,5 +1,43 @@
 @media (min-width: 1000px) {
-  html {
-    background-color: yellow;
+
+  .introduction {
+    justify-content: space-around;
+    padding: 2em;
+    margin-top: 30px;
   }
+  
+  .description {
+    max-width: 1000px;
+  }
+
+  #projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #projects div {
+    max-width: 400px;
+  }
+
+  #profile {
+    max-width: 30%;
+  }
+
+  h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+footer {
+  border: hidden;
+}
+
+
+.icons-container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
