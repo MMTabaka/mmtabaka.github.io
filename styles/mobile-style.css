@@ -189,13 +189,10 @@ img {
   * at the top left of the screen
   */
 
-
-  #safari-fix {
-    transform: translate3d(0,0,0);
-  }
+  
  #menu
  {
-   position: fixed;
+   position:absolute;
    width: 80px;
    margin: 50px 0 0 -5px;
    padding: 25px;
