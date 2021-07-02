@@ -20,6 +20,10 @@
     max-width: 400px;
   }
 
+  #projects div h2 {
+    font-size: 22px;
+  }
+
   #profile {
     max-width: 30%;
   }
@@ -28,6 +32,7 @@
     font-size: 35px;
     margin-bottom: 15px;
   }
+
 
 footer {
   border: hidden;
