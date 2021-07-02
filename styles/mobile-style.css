@@ -188,6 +188,11 @@ img {
   * Make this absolute positioned
   * at the top left of the screen
   */
+
+
+  #safari-fix {
+    transform: translate3d(0,0,0);
+  }
  #menu
  {
    position: fixed;
