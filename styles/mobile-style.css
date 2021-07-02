@@ -240,14 +240,31 @@ img {
 
  #projects div {
    width: auto;
-   height: 100px;
+   height: auto;
    margin: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+   padding: 10px;
+ }
+
+ #projects div ul {
+   display: flex;
+   justify-content: space-around;
+ } 
+
+ #projects div ul li {
    border: 1px solid black;
    border-radius: 10px;
+   padding: 5px;
+ }
+
+ #projects div h2 {
+   text-align: center;
+   color: gray;
+   font-weight: 600;
  }
 
  #projects .uni-project {
-   border-left: 3px solid cyan;
  }
 
 footer {
