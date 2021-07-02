@@ -1,5 +1,51 @@
-@media (min-width: 700px) {
-  html {
-    background-color: red;
+@media (min-width: 500px) {
+  .introduction {
+    display: flex;
+    align-items: center;
   }
+  .introduction-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #profile {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 700px) {
+
+  
+
+  .description {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1, h2, p, li {
+    font-size: 1.5em;
+    line-height: normal;
+    
+  }
+
+  #menuToggle div {
+    width: 48px;
+    height: 5px;
+    margin-bottom: 8px;
+    transform-origin: 7px 0px;
+  }
+
+  #menu {
+    width: 140px;
+  }
+
+  #menu li {
+    font-size: 2em;
+  }
+
+  .icons-container img {
+    width: 60px
+  }
+
 }

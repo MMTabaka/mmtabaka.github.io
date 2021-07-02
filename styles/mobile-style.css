@@ -13,7 +13,7 @@ h1 {
   margin: 5px;
   margin-top: 40px;
   padding: 5px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   scroll-margin-top: 75px;
 }
@@ -21,13 +21,17 @@ h1 {
 p {
   margin: 5px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+h1, h2, p {
+  line-height: normal;
 }
 
 header {
   position: -webkit-sticky;
   position: sticky;
-  top: 10px;
+  top: -1px;
   width: 100%;
   background-color: white;
 }
@@ -232,6 +236,10 @@ img {
    text-align: center;
  }
 
+ b {
+   font-weight: 600;
+ }
+
  #projects {
    display: flex;
    flex-direction: column;
@@ -250,22 +258,26 @@ img {
  #projects div ul {
    display: flex;
    justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 4px;
  } 
 
  #projects div ul li {
    border: 1px solid black;
    border-radius: 10px;
    padding: 5px;
+   margin: 3px;
  }
 
  #projects div h2 {
    text-align: center;
-   color: gray;
+   color: rgb(131, 130, 130);
+   font-size: 20px;
+   line-height: normal;
    font-weight: 600;
  }
 
- #projects .uni-project {
- }
+
 
 footer {
   padding: 15px;
