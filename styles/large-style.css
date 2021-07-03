@@ -1,5 +1,14 @@
 @media (min-width: 1000px) {
 
+  h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  footer {
+    border: hidden;
+  }
+
   .introduction {
     justify-content: space-around;
     padding: 2em;
@@ -8,6 +17,10 @@
   
   .description {
     max-width: 1000px;
+  }
+
+  #profile {
+    max-width: 30%;
   }
 
   #projects {
@@ -24,25 +37,10 @@
     font-size: 22px;
   }
 
-  #profile {
-    max-width: 30%;
+  .icons-container {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-  h1 {
-    font-size: 35px;
-    margin-bottom: 15px;
-  }
-
-
-footer {
-  border: hidden;
-}
-
-
-.icons-container {
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 }

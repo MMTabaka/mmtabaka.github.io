@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+/* || General styles */
+
 html {
   padding: 5px;
   scroll-behavior: smooth;
@@ -41,15 +43,23 @@ img {
   border-radius: 20px;
 }
 
-#profile {
-  margin-top: 20px;
-  margin-bottom: 20px;
+b {
+  font-weight: 600;
 }
+
+footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  border-top: black solid 1px;
+}
+
+
+/* || Header and main navigation */
 
 #logo {
   max-width: 50%;
 }
-
 
 .header-block {
   display: flex;
@@ -76,7 +86,6 @@ img {
  * prefixes.
  */
 
- 
  #menuToggle
  {
    padding: 10px;
@@ -99,7 +108,6 @@ img {
    color: red;
  }
  
- 
  #menuToggle input
  {
    display: block;
@@ -119,6 +127,7 @@ img {
  /*
   * Just a quick hamburger
   */
+
  #menuToggle div
  {
    display: block; /* block - takes all line */
@@ -160,6 +169,7 @@ img {
   * Transform all the slices of hamburger
   * into a crossmark.
   */
+
  #menuToggle input:checked ~ div
  {
    opacity: 1;
@@ -170,6 +180,7 @@ img {
  /*
   * But let's hide the middle one.
   */
+
  #menuToggle input:checked ~ div:nth-last-child(3)
  {
    opacity: 0;
@@ -179,6 +190,7 @@ img {
  /*
   * Ohyeah and the last one should go the other direction
   */
+
  #menuToggle input:checked ~ div:nth-last-child(2)
  {
    transform: rotate(-45deg) translate(0, -1px);
@@ -189,7 +201,6 @@ img {
   * at the top left of the screen
   */
 
-  
  #menu
  {
    position:absolute;
@@ -216,16 +227,6 @@ img {
    text-align: center;
  }
 
- .icons-container {
-   display: flex;
-   justify-content: space-around;
-   padding: 30px;
- }
-
- .icons-container img {
-   width: 40px;
- }
- 
  /*
   * And let's slide it in from the left
   */
@@ -234,18 +235,24 @@ img {
    transform: none;
  }
 
+
+ /* || Introduction part with profile image */
+
  .introduction p {
    text-align: center;
  }
 
- b {
-   font-weight: 600;
- }
+ #profile {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* || Work part */
 
  #projects {
    display: flex;
    flex-direction: column;
-  
  }
 
  #projects div {
@@ -280,10 +287,14 @@ img {
  }
 
 
+ /* || Contact part */
 
-footer {
-  padding: 15px;
+ .icons-container {
   display: flex;
   justify-content: space-around;
-  border-top: black solid 1px;
+  padding: 30px;
+}
+
+.icons-container img {
+  width: 40px;
 }
