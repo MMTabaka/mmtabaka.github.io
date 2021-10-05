@@ -2,184 +2,193 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8" />
-    <title>Milosz Tabaka</title>
+<head>
+  <meta charset="utf-8" />
+  <title>Milosz Tabaka</title>
 
-    <meta name="description" content="Personal website" />
-    <meta name="author" content="Milosz Tabaka" />
-    <meta name="copyright" content="Milosz Tabaka" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal website" />
+  <meta name="author" content="Milosz Tabaka" />
+  <meta name="copyright" content="Milosz Tabaka" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Meyer's reset -->
-    <link rel="stylesheet" href="styles/meyer-reset.css" />
-    <!-- Styling for mobile -->
-    <link rel="stylesheet" href="styles/mobile-style.css" />
-    <!-- Styling for medium size screens -->
-    <link rel="stylesheet" href="styles/medium-style.css" />
-    <!-- Styling for large size screens -->
-    <link rel="stylesheet" href="styles/large-style.css" />
+  <!-- Meyer's reset -->
+  <link rel="stylesheet" href="styles/meyer-reset.css" />
+  <!-- Styling for mobile -->
+  <link rel="stylesheet" href="styles/mobile-style.css" />
+  <!-- Styling for medium size screens -->
+  <link rel="stylesheet" href="styles/medium-style.css" />
+  <!-- Styling for large size screens -->
+  <link rel="stylesheet" href="styles/large-style.css" />
 
-    <!-- <script src="scripts/main.js"></script> -->
-    <!-- https://favicon.io/favicon-generator/ -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
 
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  </head>
+<body>
 
-  <body>
+  <header class="header">
 
-    <header class="header">
+    <div class="header-block">
+      <nav>
+        <div id="menuToggle">
 
-      <div class="header-block">
-        <!-- https://codepen.io/erikterwan/pen/EVzeRP -->
-        <nav>
-          <div id="menuToggle">
+          <input type="checkbox" />
 
-            <input type="checkbox" />
+          <div></div>
+          <div></div>
+          <div></div>
 
-            <div></div>
-            <div></div>
-            <div></div>
-
-            <ul id="menu">
-              <li><a href="#top">Top</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#work">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        <!-- https://editor.method.ac/ -->
-        <a href="index.html" id="logo"><img src="images/logo.svg" alt="logo picture"></a>
-
-        <div id="right"></div>
-      </div>
-    </header>
-
-    <div class="description">
-      <div class="introduction">
-        <img id="profile" src="images/profile.jpg" alt="profile picture">
-        <div class="introduction-text">
-          <div class="line-height-low">
-            <p>Hi, my name is </p>
-            <p><b>Milosz Tabaka</b></p>
-          </div>
-          <p>I enjoy building websites.</p>
-        </div>
-      </div>
-
-      <h1 id="about">1. About Me</h1>
-      <p>I am a 1st year international student from Poland at The University of Sheffield.
-        My major is BSc Artificial Intelligence and Computer Science.</p>
-      <p>My story with web development started this academic year.
-        The Web and Interent Technology module introduced me to the basics of HTML,
-        CSS and JS.</p>
-      <p>Both the module and final assignment, which was creating your personal website,
-        weren't ones of my favourites. When I started to digging deeper and getting better
-        at achieving my design goals I was getting more convinced to front-end web development
-        and eventually decided to completely focus on this branch.
-      </p>
-
-      <p>I designed and built this website for three reasons. First of all, practice. I wanted
-        instead of learning countless CSS rules put some of them into practice and see during
-        the process what I still need to improve. Secondly, I wanted a place where I will be free
-        to put all my work. Last but not least, I was curious if after many failures with my assignment website
-        I eventually will be able to implement what I designed in the first place and finding solutions
-        to constantly appearing problems. I can see now a big improvement in my CSS skills and I can't
-        wait to make it even greater.</p>
-
-      <h1 id="work">2. My Projects</h1>
-      <div id="projects">
-        <div class="uni-project">
-          <h2>Web-based App for Finding a Mentor</h2>
-          <p>A website application allowing university students to find a suitable mentor for them. </p>
-          <p>This assignment helped me develop my leadership and team working skills as well as required to learn new
-            for me
-            technologies in a short period of time.</p>
-          <ul>
-            <li>Ruby</li>
-            <li>Sinatra</li>
-            <li>Sequel</li>
-            <li>SQLite</li>
-            <li>RSpec</li>
+          <ul id="menu">
+            <li><a href="#top">Top</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <div class="uni-project">
-          <h2>Wine Browser App</h2>
-          <p>A GUI application that takes user's text input with different wines and their properties and applies
-            sorting
-            on the list based on chosen filters. It displays the sorted list in a user interface along with minimum,
-            maximum
-            and average properties as well as with histogram, which graphically shows proportion of wines based on
-            selected property.
-          </p>
-          <p>This assignment helped me better understand OOP concept as well as Java Swing framework and put
-            everything
-            into practice.</p>
-          <ul>
-            <li>Java</li>
-          </ul>
-        </div>
-        <div class="uni-project">
-          <h2>Map Traversal Problem</h2>
-          <p>A problem which required to accommodate a Branch and Bound algorithm to terrain map in order to return
-            the
-            shortest possible
-            path between two points on mountain terrain with the least possible climbing. The second part of the
-            project
-            was to implement
-            A* algorithm based on the code from previous part by including different heuristics in calculating the
-            distance and then compare
-            the efficiency of both algorithms.</p>
-          <p>This assignment helped me understand theoretical knowledge better by practice. It also introduced me to a LaTeX report template.</p>
-          <ul>
-            <li>Java</li>
-          </ul>
-        </div>
-        <div class="uni-project">
-          <h2>My First Personal Website</h2>
-          <p>A website containing information about me as well as interactive quiz and charts.
-          </p>
-          <p>This assignment helped me put my basic at the time HTML, CSS and JS knowledge into practice. I have also
-            learned how to use
-            Google Chrome Developer Tools for development and Google lighthouse for testing. The project also brought
-            my
-            attention
-            to importance of accessibility in webpages.
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
-        <div class="uni-project">
-          <h2>Global Engineering Challenge Week Project</h2>
-          <p>A week long team project gathering students from different engineering areas. Our task was to find a solution to frequent power outages and low electrical
-            coverage in Lobitos and Piedritas areas in
-            northern cost of Peru. Our idea was to install small wind turbines connected to national power grid and to store energy using car batteries.
-            It would increase the coverage, generate enough energy for a household
-            and with enough amount of batteries also allow residents to sell some of the energy to the national grid.</p>
-          <p>This project streghen my leadership skills, required me to work in different engineering field than my
-            own
-            as well as
-            improved my presentation and organisation skills.</p>
+      </nav>
+      <a href="index.html" id="logo"><img src="images/logo.svg" alt="logo picture"></a>
 
-        </div>
-      </div>
-      
-      <h1 id="contact">3. Contact</h1>
-      <div class="icons-container">
-        <a href="https://github.com/MMTabaka" target="_blank"><img id="github" src="images/github.svg" alt="github"></a>
-        <a href="https://www.linkedin.com/in/milosz-tabaka-075a861b0/" target="_blank"><img id="linkedin" src="images/linkedin.svg"
-            alt="linkedin"></a>
-        <!--<a href="https://twitter.com/milosztabaka" target="_blank"><img id="twitter" src="images/twitter.svg" alt="twitter"></a> -->
-      </div>
-
-      <footer>
-        <p id=copyright>&copy; 2021 Milosz Tabaka</p>
-      </footer>
+      <div id="right"></div>
     </div>
-  </body>
+  </header>
+
+  <div class="description">
+    <div class="introduction">
+      <img id="profile" src="images/profile.jpg" alt="profile picture">
+      <div class="introduction-text">
+        <div class="line-height-low">
+          <p>Hi, my name is </p>
+          <p><b>Milosz Tabaka</b></p>
+        </div>
+        <p>I enjoy building websites.</p>
+      </div>
+    </div>
+
+    <h1 id="about">1. About Me</h1>
+    <p>I am a 2nd year Artificial Intelligence and Computer Science student at The University of Sheffield. My interest
+      in web development sparked during last academic year, when I was introduced to basics of HTML, CSS and JavaScript
+      in The Web and Internet Technologies module.
+    </p>
+    <p>I designed and built this website to share some of my academic and personal projects as well as to reflect on the
+    progress I made since my first steps in programming.
+    </p>
+
+    <h1 id="work">2. My Projects</h1>
+    <div id="projects">
+      <div class="uni-project">
+        <h2>Web-based App to Match Mentors with Mentees</h2>
+        <p>A website application allowing university students to find a suitable mentor for them. </p>
+        <p>This assignment helped me develop my leadership and team working skills as well as required to learn new
+          for me
+          technologies in a short period of time.</p>
+        <ul>
+          <li>Ruby</li>
+          <li>Sinatra</li>
+          <li>Sequel</li>
+          <li>SQLite</li>
+          <li>RSpec</li>
+        </ul>
+      </div>
+      <div class="uni-project">
+        <h2>Wine Browser App</h2>
+        <p>A GUI application that takes user's text input with different wines and their properties and applies
+          sorting
+          on the list based on chosen filters. It displays the sorted list in a user interface along with minimum,
+          maximum
+          and average properties as well as with histogram, which graphically shows proportion of wines based on
+          selected property.
+        </p>
+        <p>This assignment helped me better understand OOP concept as well as Java Swing framework and put
+          everything
+          into practice.</p>
+        <ul>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div class="uni-project">
+        <h2>Map Traversal Problem</h2>
+        <p>A problem which required to accommodate a Branch and Bound algorithm to terrain map in order to return
+          the
+          shortest possible
+          path between two points on mountain terrain with the least possible climbing. The second part of the
+          project
+          was to implement
+          A* algorithm based on the code from previous part by including different heuristics in calculating the
+          distance and then compare
+          the efficiency of both algorithms.</p>
+        <p>This assignment helped me understand theoretical knowledge better by practice. It also introduced me to a
+          LaTeX report template.</p>
+        <ul>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div class="uni-project">
+        <h2>My First Personal Website</h2>
+        <p>A website containing information about me as well as interactive quiz and charts.
+        </p>
+        <p>This assignment helped me put my basic at the time HTML, CSS and JS knowledge into practice. I have also
+          learned how to use
+          Google Chrome Developer Tools for development and Google lighthouse for testing. The project also brought
+          my
+          attention
+          to importance of accessibility in webpages.
+        </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="uni-project">
+        <h2>Global Engineering Challenge</h2>
+        <p>A week long team project gathering students from different engineering areas. Our task was to find a solution
+          to frequent power outages and low electrical
+          coverage in Lobitos and Piedritas areas in
+          northern coast of Peru. Our idea was to install small wind turbines near households connected to national
+          power grid and to store energy using car batteries.
+          It would increase the coverage, generate enough energy for a household
+          and with enough amount of batteries also allow residents to sell some of the energy to the national grid.</p>
+        <p>This project streghen my leadership skills, required me to work in different engineering field than my
+          own
+          as well as
+          improved my presentation and organisation skills.</p>
+      </div>
+      <div class="uni-project">
+        <h2>Tic-Tac-Toe Game</h2>
+        <p>A simple tic-tac-toe Game allowing two users to pick their positions in turns until there is a winner or game
+          finishes in draw.
+        </p>
+        <p>This project was some sort of a warm-up while learning Python and helped me put some basic expression into
+          practice</p>
+        <ul>
+          <li>Python</li>
+        </ul>
+      </div>
+      <div class="uni-project">
+        <h2>Simple Banking System</h2>
+        <p>A simple app allowing user to create a new bank account by generating valid by Luhn algorithm card number and
+          PIN, add money to the account,
+          and make a transfer by providing another card number that is present in the database.
+        </p>
+        <p>This project helped me to improve my software designing skills, put some new Python expression into practive
+          as well as required to implement a database in Python code.</p>
+        <ul>
+          <li>Python</li>
+          <li>SQLite</li>
+        </ul>
+      </div>
+    </div>
+
+    <h1 id="contact">3. Contact</h1>
+    <div class="icons-container">
+      <a href="https://github.com/MMTabaka" target="_blank"><img id="github" src="images/github.svg" alt="github"></a>
+      <a href="https://www.linkedin.com/in/milosz-tabaka-075a861b0/" target="_blank"><img id="linkedin"
+          src="images/linkedin.svg" alt="linkedin"></a>
+    </div>
+
+    <footer>
+      <p id=copyright>&copy; 2021 Milosz Tabaka</p>
+    </footer>
+  </div>
+</body>
 
 </html>
